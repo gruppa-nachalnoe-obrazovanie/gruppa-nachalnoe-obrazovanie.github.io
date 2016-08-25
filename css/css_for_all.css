@@ -107,10 +107,11 @@ div.modal {
 .table-bordered > thead > tr > th {
     vertical-align: middle;
 }
+
 /* Для col-lg */
 
-@media (min-width: 1499px) {
-    
+@media (min-width: 1200px) {
+
 /* Шапка */ 
 
 #Vazhnaya_info {
@@ -151,19 +152,11 @@ li.nav {
     width: 234px;
     height: 70px;
 }
-    
-    /* Выпадающее меню */
-
-.navbar-inverse .dropdown-menu-right > div.container-fluid {
-    padding: 5px;
-    width: 351px;
-}
     }
  
-
 /* Для col-md */
 
-@media (min-width: 960px) and (max-width: 1499px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     
 /* Шапка */ 
 
@@ -205,19 +198,11 @@ li.nav {
     width: 193px;
     height: 70px;
 }
-    
-    /* Выпадающее меню */
-
-.navbar-inverse .dropdown-menu-right > div.container-fluid {
-    padding: 5px;
-    width: 482px;
-}
     }
-
 
 /* Для col-sm */
 
-@media (max-width: 1239px) and (min-width: 960px) {
+@media (max-width: 991px) and (min-width: 768px) {
     
 /* Шапка */ 
 
@@ -259,19 +244,12 @@ li.nav {
     width: 149px;
     height: 109px;
 }
-    
-/* Выпадающее меню */
-
-.navbar-inverse .dropdown-menu-right > div.container-fluid {
-    padding: 5px;
-    width: 445px;
-}
     }
 
 /* Для col-xs */
 
-@media (max-width: 959px) {
-    
+@media (max-width: 767px) {
+
 /* Шапка */ 
 
 #Vazhnaya_info {

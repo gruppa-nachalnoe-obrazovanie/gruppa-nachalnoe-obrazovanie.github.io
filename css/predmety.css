@@ -16,9 +16,7 @@
     background-position: fixed;
     background-repeat: round;
     padding: 30px 10px 10px 20px;
-    text-align: center;
-    padding: 10px;
-    
+    text-align: center;    
 }
 
 
@@ -82,11 +80,19 @@ dd {
     text-align: left;
 }
 
-.btn-group {
+.btn-group, 
+.btn-group-vertical {
     padding: 15px 0px;
 }
 
-.btn-group > button > a {
+.btn-group > button > a,
+.btn-group-vertical > button > a {
     color: white;
 }
 
+@media (max-width: 768px) {
+    
+dd {
+    text-align: center;
+}    
+    }
