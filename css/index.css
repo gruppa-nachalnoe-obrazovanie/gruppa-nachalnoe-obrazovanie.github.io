@@ -96,6 +96,12 @@ li#r4.active > a {
     margin: 0px;
 }
 
+p {
+    text-align: center;
+    text-decoration-color: black;
+    margin: 20px;
+}
+
 .table > tbody > tr > td, 
 .table-bordered > thead > tr > th {
     vertical-align: middle;
