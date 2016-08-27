@@ -81,8 +81,12 @@ body {
     background-color: black;
 }
 
-hr {
+hr (not #p1) {
     border-color: black;
+}
+
+#p1 {
+    margin: 0px;
 }
 
 caption {
