@@ -87,6 +87,7 @@ hr (not #p1) {
 
 #p1 {
     margin: 0px;
+    border-color: black;
 }
 
 caption {
