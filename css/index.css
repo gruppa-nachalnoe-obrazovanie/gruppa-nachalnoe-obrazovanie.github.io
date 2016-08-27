@@ -96,7 +96,7 @@ li#r4.active > a {
     margin: 0px;
 }
 
-p {
+p (not #p1) {
     text-align: center;
     text-decoration-color: black;
     margin: 20px;
