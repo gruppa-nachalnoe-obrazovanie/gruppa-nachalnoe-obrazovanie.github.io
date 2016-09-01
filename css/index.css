@@ -117,7 +117,7 @@ p (not .p1) {
 
 @media (min-width: 1200px) {
     
-td {
+div (not .accordeon) > .table > td {
     height: 57px;
     }
 }
