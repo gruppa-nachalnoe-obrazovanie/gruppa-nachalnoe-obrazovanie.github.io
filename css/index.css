@@ -120,7 +120,7 @@ p (not .p1) {
 td {
     height: 57px;
     }
-.panel-info > td {
+.panel-info > .table-responsive > tr > td {
     height: auto;
 }
 }
