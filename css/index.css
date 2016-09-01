@@ -117,14 +117,14 @@ p (not .p1) {
 
 @media (min-width: 1200px) {
     
-   div > table > tr {
-        min-height: 57px;
+.table-responsive > .table-bordered > tr {
+    min-height: 57px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     
-   div > table > tr {
-        min-height: 77px;
+.table-responsive > .table-bordered > tr {
+    min-height: 77px;
     }
 }
