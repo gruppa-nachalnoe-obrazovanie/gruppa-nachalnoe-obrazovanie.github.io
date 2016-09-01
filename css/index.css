@@ -114,3 +114,17 @@ p (not .p1) {
 #collapse-5 {
     padding: 10px;
 }
+
+@media (min-width: 1200px) {
+    
+    tr {
+        min-width: 57px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    tr {
+        min-width: 77px;
+    }
+}
