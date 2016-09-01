@@ -121,7 +121,7 @@ td {
     height: 57px;
     }
 .panel-info > tr > td {
-    height: auto;
+    height: 20px;
 }
 }
 
