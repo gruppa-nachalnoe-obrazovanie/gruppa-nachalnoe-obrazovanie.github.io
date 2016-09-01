@@ -118,13 +118,13 @@ p (not .p1) {
 @media (min-width: 1200px) {
     
     tr {
-        min-width: 57px;
+        min-height: 57px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     
     tr {
-        min-width: 77px;
+        min-height: 77px;
     }
 }
