@@ -117,7 +117,7 @@ p (not .p1) {
 
 @media (min-width: 1200px) {
     
-div (not .panel-group) > .table > td {
+.na_2_dnya > td {
     height: 57px;
     }
 }
