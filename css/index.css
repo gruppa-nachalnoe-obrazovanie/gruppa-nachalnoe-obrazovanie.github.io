@@ -117,7 +117,7 @@ p (not .p1) {
 
 @media (min-width: 1200px) {
     
-div (not .panel-group) > .table > td {
+.col-lg-6.hidden-lg > .table > td {
     height: 57px;
     }
 }
