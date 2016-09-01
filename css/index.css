@@ -120,9 +120,6 @@ p (not .p1) {
 td {
     height: 57px;
     }
-.panel-info > tr > td {
-    height: 20px;
-}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
