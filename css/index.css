@@ -118,13 +118,13 @@ p (not .p1) {
 @media (min-width: 1200px) {
     
 .container-fluid > .table-responsive > .table > tr {
-    min-height: 57px;
+    height: 57px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     
 .table-responsive > .table > tr {
-    min-height: 77px;
+    height: 77px;
     }
 }
