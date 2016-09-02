@@ -85,6 +85,11 @@ hr {
     border-color: black;
 }
 
+hr.p1 {
+    margin: 0px;
+    padding: 0px;
+}
+
 #p1 {
     margin: 0px;
     border-color: black;
@@ -129,7 +134,8 @@ div.modal {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-style: solid solid none solid;
-    min-height: 163px;
+    height: 163px;
+    overflow: auto;
 }
     
     /* Меню */
@@ -175,7 +181,8 @@ li.nav {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-style: solid solid none solid;
-    min-height: 130px;
+    height: 130px;
+    overflow: auto;
 }
     
     /* Меню */

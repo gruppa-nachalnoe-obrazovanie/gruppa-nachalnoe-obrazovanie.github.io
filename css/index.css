@@ -117,17 +117,14 @@ p (not .p1) {
 
 @media (min-width: 1200px) {
     
-td {
+.table > tbody > tr > td, .table > thead > tr > th {
     height: 57px;
     }
-.panel-info > tr > td {
-    height: 20px;
-}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     
-td {
+.table > tbody > tr > td, .table > thead > tr > th {
     height: 77px;
     }
 }
