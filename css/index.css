@@ -28,10 +28,6 @@ div.tabs > .container-fluid {
     background-color: white;
 }
 
-div.container-fluid.hidden-lg.hidden-md.hidden-sm.col-xs-12 {
-    background-color: white;
-}
-
 #r1 {
     background: linear-gradient(to bottom, red, #9A5044);
     text-align: center;
