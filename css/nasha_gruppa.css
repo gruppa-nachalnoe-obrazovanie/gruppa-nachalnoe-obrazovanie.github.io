@@ -14,3 +14,10 @@ p {
     text-align: center;
     text-decoration-color: black;
 }
+
+.foto {
+    height: 215px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
