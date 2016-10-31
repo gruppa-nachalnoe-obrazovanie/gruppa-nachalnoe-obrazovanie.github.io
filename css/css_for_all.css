@@ -3,6 +3,10 @@
 
  /* Общий код */
 
+.zachet {
+    background: #D95E5E;
+}
+
 body {
     background: url(../images/background.jpg) fixed;
     padding-top: 10px;
