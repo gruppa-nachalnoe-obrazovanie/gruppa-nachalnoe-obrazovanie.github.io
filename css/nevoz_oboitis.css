@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=latin,cyrillic);
+@import url(css_for_all.css);
+
+#all {
+    background-image: url(../images/background-vazhnoe.jpg);
+    background-position: fixed;
+    background-repeat: round;
+    padding: 30px 10px 10px 20px;
+    text-align: center;    
+}
+
+p {
+    text-align: center;
+    text-decoration-color: black;
+}
+
+#vse_chto_prigoditsa {
+    border-color: blue;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+#vse_chto_prigoditsa > ul {
+    margin: 0px;
+}
+
+#vse_chto_prigoditsa > ul > li > a {
+    color: blueviolet;
+}
+
+#nazvanie {
+    background: linear-gradient(to bottom, blue, #3C5F9A);
+    font-size: 16px;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+}
+
+dl {
+    margin: 0px 0px 15px 0px;
+}
+
+dd {
+    text-align: left;
+}
+
+button > a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    
+dd {
+    text-align: center;
+}    
+    }

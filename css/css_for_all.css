@@ -1,0 +1,283 @@
+@import url(https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=latin,cyrillic);
+
+ /* Общий код */
+
+.zachet {
+    background: #D95E5E;
+}
+
+body {
+    background: url(../images/background.jpg) fixed;
+    padding-top: 10px;
+    background-repeat: round;
+}
+
+/* Шапка */
+
+#phelka {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0px;
+}
+
+#name {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+.p1 {
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    text-decoration-color: black;
+    font-size: 18px;
+}
+
+#Vazhnaya_info, #vazhno {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* Меню */
+
+#open-menu {
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+}
+    
+.navbar-nav > li {
+    text-align: center;
+} 
+
+/* Цвет фона и рамки навигационного меню */
+.navbar-inverse {
+    background: linear-gradient(to top, black, #333333);
+    border-color: #333333;
+    margin: 0px;
+}
+
+/* Текст пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: black;
+    transition: all 0.5s ease-out;
+}
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-inverse .navbar-nav > .active, 
+.navbar-inverse .navbar-nav > .active:hover, 
+.navbar-inverse .navbar-nav > .active:focus {
+    color: white;
+    background-color: black;
+}
+
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-inverse .navbar-nav > .open, 
+.navbar-inverse .navbar-nav > .open:hover, 
+.navbar-inverse .navbar-nav > .open:focus {
+    color: white;
+    background-color: black;
+}
+
+hr {
+    border-color: black;
+}
+
+hr.p1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#p1 {
+    margin: 0px;
+    border-color: black;
+}
+
+caption {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+h4 {
+    text-decoration: underline;
+    color: black;
+}
+
+div.modal {
+    text-align: center;
+}
+
+.table > tbody > tr > td, 
+.table-bordered > thead > tr > th {
+    vertical-align: middle;
+}
+
+/* Для col-lg */
+
+@media (min-width: 1200px) {
+
+/* Шапка */ 
+
+#Vazhnaya_info {
+    background-image: url(../images/background-vazhnoe.jpg);
+    background-repeat: round;
+    border-color: black;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: solid solid none solid;
+    height: 163px;
+    overflow: auto;
+}
+    
+    /* Меню */
+    
+/* Пункт навигационного меню */
+.navbar-inverse .navbar-nav > li > a {
+    border-color: #333333;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    width: 234px;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+    
+#responsive-menu,
+#container-menu {
+    padding: 0px;
+    min-width: 1170px;
+    min-height 70px;
+}
+
+li.nav {
+    width: 234px;
+    height: 70px;
+}
+    }
+ 
+/* Для col-md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+/* Шапка */ 
+
+#Vazhnaya_info {
+    background-image: url(../images/background-vazhnoe.jpg);
+    background-repeat: round;
+    border-color: black;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: solid solid none solid;
+    height: 130px;
+    overflow: auto;
+}
+    
+    /* Меню */
+
+/* Пункт навигационного меню */
+.navbar-inverse .navbar-nav > li > a {
+    border-color: #333333;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    width: 193px;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+    
+#responsive-menu,
+#container-menu {
+    padding: 0px;
+    min-width: 193px;
+    min-height 70px;
+}
+
+li.nav {
+    width: 193px;
+    height: 70px;
+}
+    }
+
+/* Для col-sm */
+
+@media (max-width: 991px) and (min-width: 768px) {
+    
+/* Шапка */ 
+
+#Vazhnaya_info {
+    background-image: url(../images/background-vazhnoe.jpg);
+    background-repeat: round;
+    border-color: black;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: solid solid none solid;
+    min-height: 130px;
+}
+    
+    /* Меню */
+ 
+/* Пункт навигационного меню */
+.navbar-inverse .navbar-nav > li > a {
+    border-color: #333333;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    width: 149px;
+    height: 109px;
+    display: table-cell;
+    vertical-align: middle;
+}
+    
+#responsive-menu,
+#container-menu {
+    padding: 0px;
+    min-width: 748px;
+    min-height 109px;
+}
+
+li.nav {
+    width: 149px;
+    height: 109px;
+}
+    }
+
+/* Для col-xs */
+
+@media (max-width: 767px) {
+
+/* Шапка */ 
+
+#Vazhnaya_info {
+    background-image: url(../images/background-vazhnoe.jpg);
+    background-repeat: round;
+    border-color: black;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: solid solid none solid;
+    min-height: 130px;
+}
+    }

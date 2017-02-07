@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=latin,cyrillic);
+@import url(css_for_all.css);
+
+#nasha-gruppa {
+    background-image: url(../images/background-vazhnoe.jpg);
+    background-position: fixed;
+    background-repeat: round;
+    padding: 30px 10px 10px 20px;
+    text-align: center;    
+}
+
+p {
+    text-align: center;
+    text-decoration-color: black;
+}
+
+.foto {
+    height: 215px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
